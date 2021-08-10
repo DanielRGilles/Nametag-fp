@@ -2,38 +2,47 @@
     box-sizing: border-box;
 }
 
+html,
 body {
     background-color: blanchedalmond;
-   
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: grid;
     background-color: red;
     color: white;
-    border-radius: 5px;
-    width: auto;
+    border-radius: 7px;
+    width: 33%;
     text-align: center;
     align-items: center;
-    margin: 5% 33% 0 33%;
     height: auto;
     text-transform: capitalize;
     font-weight: 700;
     border: solid 3px black;
-    box-sizing: border-box;
     font-size: auto;
-    
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
 }
-header  {
-    font-size:5vw;
+
+header {
+    font-size: 5vw;
 }
 
 footer {
     background-color: red;
-    display: flex;
-    border-radius: 5px;
+    /* display: flex; */
+    /* border-radius: 5px; */
     color: red;
-   
+
 }
 
 .name-area {
