@@ -17,7 +17,7 @@ body {
 body {
     background-image: url(./assets/flannel.jpg);
     background-color: #cccccc;
-   }
+}
 
 .container {
     display: grid;
@@ -30,7 +30,7 @@ body {
     height: auto;
     text-transform: capitalize;
     font-weight: 700;
-    border: dotted 4px rgb(209, 202, 202);
+    border: dashed 4px rgb(209, 202, 202);
     font-size: auto;
     font-family: 'Fjalla One', sans-serif;
 
@@ -42,11 +42,12 @@ header {
     font-size: 5vw;
 }
 
-footer {
+section {
     background-color: red;
-    /* display: flex; */
-    /* border-radius: 5px; */
+    display: flex;
+    border-radius: 5px;
     color: red;
+    font-size: 3rem;
 
 }
 
@@ -54,9 +55,25 @@ footer {
     background-color: white;
     color: black;
     font-size: 5vw;
+    font-family: fantasy;
 }
 
 img {
     background: no-repeat;
     background-size: stretch;
+}
+
+#footer {
+    position: absolute;
+    bottom: 2px;
+    /* padding-bottom: 15px; */
+    width: auto;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 100%;
+    color: floralwhite;
+    text-decoration: underline;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
 }
