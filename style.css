@@ -1,0 +1,39 @@
+body {
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    margin: 5% 33% 0 33%;
+    height: auto;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: solid 3px black;
+    box-sizing: border-box;
+    font-size: auto;
+    
+}
+header  {
+    font-size:5vw;
+}
+
+footer {
+    background-color: red;
+    display: flex;
+    border-radius: 5px;
+    color: red;
+   
+}
+
+.name-area {
+    background-color: white;
+    color: black;
+    font-size: 5vw;
+}
