@@ -30,7 +30,7 @@ body {
     height: auto;
     text-transform: capitalize;
     font-weight: 700;
-    border: solid 3px black;
+    border: dotted 4px rgb(209, 202, 202);
     font-size: auto;
     font-family: Arial, Helvetica, sans-serif;
 
