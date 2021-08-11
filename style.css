@@ -77,3 +77,14 @@ img {
     text-transform: capitalize;
     font-weight: 700;
 }
+
+#btn-click {
+    background-color: #FFDC00;
+}
+.name-change-cnt {
+    position: absolute;
+    top: 10%;
+    display: grid;
+    height: 100px;
+    
+}
