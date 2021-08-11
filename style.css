@@ -79,7 +79,11 @@ img {
 }
 
 #btn-click {
-    background-color: #FFDC00;
+    background-color: #FF851B;
+    margin-top: 15px;
+    border: solid 3px white;
+    border-radius: 5px;
+    font-size: 1.5rem;
 }
 .name-change-cnt {
     position: absolute;
@@ -87,4 +91,14 @@ img {
     display: grid;
     height: 100px;
     
+}
+#user-input-space {
+    background-color: #F18F01;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 2px white;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
 }

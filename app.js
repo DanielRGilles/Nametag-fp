@@ -11,8 +11,11 @@ const newName = document.getElementById('new-name')
 // create event listener
 
 userButton.addEventListener('click', () => {
+// perform an action on click
+
 newName.textContent = userInput.value;
     
-})
+});
 
-// perform an action on click
+
+
